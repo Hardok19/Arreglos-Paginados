@@ -52,7 +52,7 @@ int main(int argc, char* argv[]) { //argc numero de argumetos del string. argv a
 
     long long fileSize = getSizeInBytes(sizeArg);//verifica si el tamaño es válido
     if (fileSize == 0) {
-        std::cerr << "Invalid size. Use SMALL, MEDIUM, or LARGE.\n";
+        std::cerr << "Invalid. Use SMALL, MEDIUM, or LARGE.\n";
         return 1;
     }
 
